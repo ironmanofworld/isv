@@ -1,0 +1,76 @@
+class WannabeFunction {
+  call(String a, String b, String c) => '$a $b $c!';
+}
+
+//printing hello world
+void main() {
+
+  print("hello"); //hello
+  print(66+1); //arthimetic
+  print(false); //false
+  // strings
+  String hello = "myname";
+  print('hello');
+  String good = 'nice';
+  //double
+  double fine = 10.7;
+  print('fine');
+  
+  String s1="Hello";
+  String s2="computer $s1";
+  print("${s2.length}");
+  
+  
+  //final
+  final fruit="orange";
+
+  
+  //constant
+  const animal="cheeta";
+  
+  //ternary operator
+  
+  int o = 8;
+  int t = 55;
+  
+  o>t ? print("true") : print("false");
+  
+  //else statement
+  int biggervalue;
+  int w = 9;
+  int q = 3;
+  
+    biggervalue = w>q ? w: q;
+  print("biggervalue is $biggervalue");
+  
+  
+  //another else statement
+    int e = 9;
+    int r = 3;
+  
+    e>r ? print("bigger one is $e") : print("smaller");
+  
+  
+  //for loop
+  
+
+  
+  for(var s5=0; s5<=100; s5++)
+  {
+    
+    print("s5");
+  }
+  
+  //while loop
+  
+  var count=0;
+  
+  while(count<=33){
+    print(count);
+    count++;
+  }
+  
+
+  
+  
+}
