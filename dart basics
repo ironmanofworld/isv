@@ -1,0 +1,31 @@
+class WannabeFunction {
+  call(String a, String b, String c) => '$a $b $c!';
+}
+
+//printing hello world
+void main() {
+
+String hello ='WoW';
+  print(hello);
+  
+  String s2 ='It\s super';
+  print(s2);
+  
+   String s3 ="It super fajjklajkjroiakljlkagklk"
+                "It super fajjklajkjroiakljlkagklkl"
+     "It super fajjklajkjroiakljlkagklkl";
+  print(s3);
+  
+  
+  int age=10;
+  print(10);
+  
+  double price = 23.3;
+  print(price);
+  
+  bool sachin = true;
+  bool vijaya = false;
+  print(sachin);
+  
+  
+}
