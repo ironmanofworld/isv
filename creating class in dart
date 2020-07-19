@@ -1,0 +1,32 @@
+
+void main() {
+
+  
+var plan1 = Mutualfund(); // This whole thing from var to last print statement is an object, we are creating an object to assigning values to multiple things Here plan1 is an object
+  
+  plan1.deposit=2000; //adding values to datatypes of class mutualfund like deposit and fund in this  plan 1 object.
+  plan1.fund='sbi magnum fund';
+
+  print("deposit ${plan1.deposit} into ${plan1.fund}");
+
+
+}
+  
+//I think classes are very simple things we have to create multiple datatypes in classes and we can give the values of that datatypes in object space from var to print
+  
+  
+  class Mutualfund{  //we can create multiple classes as per our requirement 
+    int deposit;
+    String fund;
+    
+   }
+  
+  //void childmarrgage(){
+  //  print("invest $deposit monthly in this $fund for your child marrage");
+
+    //plan1.deposit=5000;
+  //plan1.fund="sbi mutual fund";
+
+  //plan1.childmarrage();
+
+  
