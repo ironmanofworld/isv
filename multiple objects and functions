@@ -1,0 +1,59 @@
+
+
+void main() {
+
+  
+var item1 = Electronics(); // This whole thing from var to last print statement is an object, we are creating an object to assigning values to multiple things Here plan1 is an object
+  
+  item1.cost=150000; //adding values to datatypes of class mutualfund like deposit and fund in this  plan 1 object.
+  item1.product='Macbook Air';
+
+  print("cost of the ${item1.product} is ${item1.cost}");
+
+  item1.appletv(); // we are calling this statement from below function
+  
+  print('');    //we can get space by using thsi print statements
+    print(''); 
+  print('');
+  
+  
+  var item2 = Electronics(); //object 2
+  item2.cost=35000; // we can change the values of the object
+  item2.product='Apple watch'; // we can change product name
+
+  print("cost of the ${item2.product} is ${item2.cost}");
+
+  item2.applewatch();
+  
+}
+  
+//I think classes are very simple things we have to create multiple datatypes in classes and we can give the values of that datatypes in object space from var to print
+  
+  
+  class Electronics{  //we can create multiple classes as per our requirement 
+    int cost;
+    String product;
+    
+    
+   //The below are functions we can write multiple functions and we can call int and strint in this functions of print statement 
+    void appletv(){
+      //the watch is the function name
+      
+      print('The cost of the apple TV is same as the cost of apple macbook      air = $cost');
+    }
+    
+    void applewatch(){       //This is the section functio
+    print('we can get 5000 discount of $cost for this $product');          
+    }
+    
+   }
+  
+  //void childmarrgage(){
+  //  print("invest $deposit monthly in this $fund for your child marrage");
+
+    //plan1.deposit=5000;
+  //plan1.fund="sbi mutual fund";
+
+  //plan1.childmarrage();
+
+  
