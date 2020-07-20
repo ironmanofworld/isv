@@ -1,0 +1,28 @@
+
+
+void main() {
+
+ var student1 = Student1();
+  student1.percentage=400;
+  print(student1.percentage);
+  
+}
+  
+class Student1{
+  
+
+  double percent;
+  
+
+
+set percentage(double marks){
+  
+  percent=marks/100;
+  
+}
+
+double get percentage{
+  return percent;
+}
+
+}
