@@ -1,0 +1,118 @@
+q1 = input('Elon Musk First Company ? ')  .upper() .lower()
+company1 = q1                 #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company1 == 'x.com':   #This string should either small or capital     #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')       #then your answer will be correct
+else:
+        print('incorrect')
+        
+#Elon Musk First Company ? x.com  (output)
+#you are correct
+
+
+
+q2 = input('what is Elon Musk 2nd company ?')    .upper() .lower()
+company2 = q2                 #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company2 == 'paypal':      #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')       #then your answer will be correct
+else:
+        print('incorrect')
+        
+ (output)
+#what is Elon Musk 2nd company ?PAYPAL
+#you are correct
+
+
+q3 = input('what is Elon Musk 3rd company ?')    .upper() .lower()
+company3 = q3                 #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company3 == 'spacex':      #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')       #then your answer will be correct
+else:
+        print('incorrect')
+        
+(output)        
+#what is Elon Musk 3rd company ?SPACEX
+#you are correct
+
+
+q4 = input('what is Elon Musk 4th company ?')    .upper() .lower()
+company4 = q4                 #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company4 == 'tesla':      #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')       #then your answer will be correct
+else:
+        print('incorrect')
+        
+(output)
+#what is Elon Musk 4th company ?TESLA
+#you are correct
+
+
+
+q5 = input('what is Elon Musk 5th company ?')    .upper() .lower()
+company5 = q5                 #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company5 == 'tesla':      #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')       #then your answer will be correct
+else:
+        print('incorrect')
+        
+
+
+q6 = input('what is Elon Musk 6th company ?')    .upper() .lower()
+company6 = q6                 #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company6 == 'solarcity':      #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')       #then your answer will be correct
+else:
+        print('incorrect')
+        
+        
+(output)        
+what is Elon Musk 6th company ?SOLARCITY
+you are correct
+
+
+q7 = input('what is Elon Musk 7th company ?')    .upper() .lower()
+company7 = q7                 #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company7 == 'neuralink':      #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')       #then your answer will be correct
+else:
+        print('incorrect')
+        
+(output)        
+what is Elon Musk 7th company ?NEURALINK
+you are correct
+
+
+q8 = input('what is Elon Musk 8th company ?')    .upper() .lower()
+company8 = q8                                                              #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company8 == 'the boring company':                                         #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')                                             #then your answer will be correct
+else:
+        print('incorrect')
+        
+(output)
+what is Elon Musk 8th company ?the boring company
+you are correct
+
+
+
+q9 = input('what is Elon Musk 9th company ?')    .upper() .lower()
+company9 = q9                                                              #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company9 == 'hyperloop':                                         #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')                                             #then your answer will be correct
+else:
+        print('incorrect')
+        
+(output)        
+what is Elon Musk 9th company ?hyperloop
+you are correct
+
+
+
+q10 = input('what is Elon Musk 10th company ?')    .upper() .lower()
+company10 = q10                                                              #you need to company1 as a variable and you have to equal to q1 so that you can match the answer
+if company10 == 'open ai':                                         #now company1 is question if that question answer(if alphabatical keep it in string) is x.com 
+    print('you are correct')                                             #then your answer will be correct
+else:
+        print('incorrect')
+        
+(output)        
+#what is Elon Musk 10th company ?OPEN AIyou are correct
