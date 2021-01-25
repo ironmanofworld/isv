@@ -1,0 +1,22 @@
+elctronics = input('Enter your budget ? ')   #with your budget what electronics you can buy   
+
+
+budget = int(elctronics)          #we have to mention what we are giving input type
+
+if budget <= 1000:
+    print('Samsung Earphones')
+    
+elif budget >1000 and budget <=1500:
+    print('phone charger')
+    
+elif budget >1500 and budget <=2000:
+    print('One plus Bluetooth Bullets')
+    
+elif budget >2000 and budget <=5000:
+    print('Realme smart watch')
+    
+elif budget >5000 and budget <=7000:
+    print('JBL Handi bluetooth speaker') 
+    
+elif budget >7000 and budget <=10000:
+    print('Realme Narzo Mobile')
